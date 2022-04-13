@@ -1,0 +1,22 @@
+h2:hover {
+    color: red;
+}
+.subtitle {
+    color: blue;
+}
+li:only-child{
+color: blue;
+}
+
+h2 + a {
+    color: red;
+}
+textarea ~ button {
+    color: purple;
+}
+ul > li{
+    color: blue;
+}
+ul li{
+    color: green;
+}
