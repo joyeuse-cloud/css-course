@@ -43,3 +43,9 @@ img[src*="../css/img"]{
 h2[Class|=article-subtitle]{
     background-color: green;
 }
+#service-image{
+    width: 70%;
+    height: 400px;
+    background: url("../css/img/img-2.jpg");
+    background-size: cover;
+}
