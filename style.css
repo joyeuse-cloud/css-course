@@ -1,7 +1,11 @@
 h2:hover {
     color: red;
 }
-.subtitle {
+/* .subtitle {
+    color: blue;
+} */
+
+h2[class=subtitle]{
     color: blue;
 }
 li:only-child{
@@ -19,4 +23,10 @@ ul > li{
 }
 ul li{
     color: green;
+}
+img[src*="../css/img"]{
+    border: 10px solid black ;
+}
+h2[Class~=article-subtitle]{
+    background-color: green;
 }
