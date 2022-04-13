@@ -46,6 +46,10 @@ h2[Class|=article-subtitle]{
 #service-image{
     width: 70%;
     height: 400px;
-    background: url("../css/img/img-2.jpg");
+    /* background: url("../css/img/img-2.jpg"); */
     background-size: cover;
+    /* background: linear-gradient(to bottom right, rgb(165, 228, 165),rgb(255, 255, 255)
+    ); */
+    background: radial-gradient(circle,rgb(7, 83, 7), rgb(79, 206, 79),rgb(255, 255, 255)
+    );
 }
