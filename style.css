@@ -52,10 +52,13 @@ h2[Class|=article-subtitle]{
     background-color: green;
 }
 #service-image{
-    width: 70%;
+    width: 70vw;
     height: 400px;
+    
+    
     /* background: url("../css/img/img-2.jpg"); */
     background-size: cover;
+    border: 10px solid rgb(80, 121, 80);
     /* background: linear-gradient(to bottom right, rgb(165, 228, 165),rgb(255, 255, 255)
     ); */
     background: radial-gradient(circle,rgb(7, 83, 7), rgb(79, 206, 79),rgb(255, 255, 255)
@@ -68,3 +71,11 @@ h2[Class|=article-subtitle]{
  .italics{
      font-style: italic;
  }
+#about-us-image{
+    height: 290px;
+    width: 80%;
+    border: 10px solid rgb(51, 54, 92);
+    margin: 80px 40px;
+    float: right;
+   
+}
