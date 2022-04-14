@@ -58,7 +58,7 @@ h2[Class|=article-subtitle]{
     
     /* background: url("../css/img/img-2.jpg"); */
     background-size: cover;
-    border: 10px solid rgb(80, 121, 80);
+    border: 5px solid rgb(80, 121, 80);
     /* background: linear-gradient(to bottom right, rgb(165, 228, 165),rgb(255, 255, 255)
     ); */
     background: radial-gradient(circle,rgb(7, 83, 7), rgb(79, 206, 79),rgb(255, 255, 255)
@@ -73,9 +73,27 @@ h2[Class|=article-subtitle]{
  }
 #about-us-image{
     height: 290px;
-    width: 80%;
+    width: 60%;
     border: 10px solid rgb(51, 54, 92);
     margin: 80px 40px;
     float: right;
    
+}
+.container{
+    
+    background:white;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.container-item{
+    background: rgb(59, 99, 59);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
 }
