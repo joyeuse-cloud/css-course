@@ -3,16 +3,18 @@ body{
     text-align: justify;
     text-transform: none;
     font-size: 1.15em;
-    font-family: "Arial",sans-serif;
+    /* font-family: "Lato",sans-serif; */
 
 }
 
 #title{
     color: rgb(235, 118, 118);
     font-weight: 800;
+    font-family: 'Slabo 27px', serif;
 }
 .subtitle{
     color: rgb(218, 147, 147);
+    font-family: 'Slabo 27px', serif;
 }
 
 
