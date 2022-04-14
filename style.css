@@ -1,5 +1,8 @@
 body{
     background: rgb(192, 227, 238);
+    text-align: justify;
+    text-transform: uppercase;
+
 }
 
 #title{
@@ -53,3 +56,6 @@ h2[Class|=article-subtitle]{
     background: radial-gradient(circle,rgb(7, 83, 7), rgb(79, 206, 79),rgb(255, 255, 255)
     );
 }
+.link{
+    text-decoration: underline;
+ } 
