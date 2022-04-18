@@ -61,7 +61,7 @@ h2[Class|=article-subtitle]{
     border: 5px solid rgb(80, 121, 80);
     /* background: linear-gradient(to bottom right, rgb(165, 228, 165),rgb(255, 255, 255)
     ); */
-    background: radial-gradient(circle,rgb(7, 83, 7), rgb(79, 206, 79),rgb(255, 255, 255)
+    background: radial-gradient(circle,rgb(131, 247, 255), rgb(74, 89, 95),rgb(45, 199, 186)
     );
 }
 .link{
@@ -82,10 +82,14 @@ h2[Class|=article-subtitle]{
 .container{
     
     background:white;
+    height: 300px;
     margin: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+    
     
 }
 .container-item{
@@ -96,4 +100,5 @@ h2[Class|=article-subtitle]{
     width: 70px;
     line-height: 50px;
     margin: 10px;
+   
 }

@@ -67,16 +67,34 @@ Cillum dolore eu fugiat nulla , pariatur:
 
 
 <div class="container">
-	<div class="container-item" >A</div>
-	<div class="container-item">B</div>
-	<div class="container-item" >C</div>
-	<div class="container-item">D</div> 
-	<div class="container-item">E</div>
-	<div class="container-item" >A</div>
-	<div class="container-item">B</div>
-	<div class="container-item" >C</div>
-	<div class="container-item">D</div> 
-	<div class="container-item">E</div>
+	<div class="container-item" style="order: 4;
+	/* flex-grow: 1;
+	flex-shrink:1 ;
+	flex-basis: 100px; */
+	align-self: center;
+	flex: 1 1 100px;">A</div>
+	<div class="container-item" style="order: 5;
+	/* flex-basis: 100px;
+	flex-shrink:1 ;
+	flex-grow: 1; */
+	align-self: flex-start;
+	flex: 5 1 100px;">B</div>
+	<div class="container-item" style="order: 1;
+	/* flex-basis: 100px;
+	flex-shrink:1 ;
+	flex-grow: 5; */
+	align-self: flex-start;
+	flex: 1 1 100px;">C</div>
+	<div class="container-item" style="order: 2;
+	/* 
+	 */
+	flex: 1 5 100px;">D</div> 
+	<div class="container-item" style="order: 3;
+	/* flex-basis: 100px;
+	flex-shrink:1 ;
+	flex-grow: 1; */
+	align-self: flex-end;
+	flex: 1 1 100px;">E</div>
 </div>
 
 <div class="grid-container">
