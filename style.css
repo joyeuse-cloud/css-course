@@ -110,8 +110,11 @@ h2[Class|=article-subtitle]{
     display: grid;
     grid-template-columns: auto auto auto ;
     grid-template-rows:auto auto  ;
-    justify-content: space-around;
-    align-content: space-evenly;
+    /* justify-content: space-around;
+    align-content: space-evenly; */
+    /* grid-column-gap: 150px;
+    grid-row-gap: 200px; */
+    grid-gap: 200px 150px;
 }
 .grid-item{
     color: black;
