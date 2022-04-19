@@ -114,8 +114,8 @@ h2[Class|=article-subtitle]{
     align-content: space-evenly; */
     /* grid-column-gap: 150px;
     grid-row-gap: 200px; */
-    grid-gap: 200px 150px;
-}
+    /* grid-gap: 200px 150px;*/
+} 
 .grid-item{
     color: black;
     font-size: 25px;
