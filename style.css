@@ -135,10 +135,14 @@ h2[Class|=article-subtitle]{
     text-decoration: none;
     font-size: 20px;
     color: white;
+    transform: skewX(-45deg);
     background-color: rgb(12, 58, 126);
-    transition: all 500ms ease;
+    -webkit-transition: background, padding 500ms ease;
+    -moz-transition: background, padding 500ms ease;
+    -o-transition: background, padding 500ms ease;
 }
 .submit-button:hover{
     background-color: rgb(0, 183, 255);
     padding: 20px 30px;
+    transform: translate(30px, 10px);
 }
