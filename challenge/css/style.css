@@ -1,6 +1,12 @@
 h1, h2,h3,h4,h5,h6{
     color: rgb(129, 129, 219);
 }
+p {
+    font-family: 'Heebo', sans-serif;
+}
+li {
+    font-family: 'Heebo', sans-serif;
+}
 .content{
     animation-name: fade-in;
     animation-duration: 5s;
